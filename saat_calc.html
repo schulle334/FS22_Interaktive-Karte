@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saatgutrechner</title>
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Saatgutbedarf Rechner</h1>
+        <label for="area">Gesamtfläche (in ha):</label>
+        <input type="number" id="area" placeholder="z.B. 1.5"><br><br>
+
+        <label for="crop">Fruchtart:</label>
+        <select id="crop">
+            <!-- Fruchtarten werden hier eingefügt -->
+        </select><br><br>
+
+        <button onclick="calculateSeed()">Berechnen</button>
+
+        <h2>Ergebnis:</h2>
+        <p id="resultTons"></p>
+        <p id="resultL"></p>
+    </div>
+
+    <script src="./script/saat_calc.js"></script>
+</body>
+</html>

@@ -1,0 +1,397 @@
+body {
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+#map { 
+    height: 100vh; 
+    width: 100%; 
+}
+.leaflet-popup-content-wrapper { 
+    border-radius: 8px; 
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+.leaflet-popup-content {
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.sidebar {
+    background-color: #2e2e2e;
+    padding: 20px;
+    max-width: 300px;
+    min-width: 250px;
+    overflow-y: auto;
+    height: 100vh;
+}
+.btn-primary, .btn-secondary, .btn-danger, .btn-success {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.btn-primary:hover, .btn-secondary:hover, .btn-danger:hover, .btn-success:hover {
+    background-color: #45a049;
+}
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+.form-control:focus {
+    border-color: #8bc34a;
+    outline: none;
+}
+.task-priority {
+    margin-left: 8px;
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #fff;
+}
+.task-priority.niedrig {
+    background-color: #f0ad4e;
+}
+.task-priority.mittel {
+    background-color: #5bc0de;
+}
+.task-priority.hoch {
+    background-color: #d9534f;
+}
+.modal-content {
+    background: #2b2b2b;
+    color: #ffffff;
+}
+#search-input {
+    margin-bottom: 10px;
+}
+#import-btn {
+    margin-bottom: 20px;
+}
+.field-label {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 14px;
+    color: #00000000;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+    color: #ddd;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #e0e0e0;
+    animation: slideInDown 1s ease-in-out;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #444;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+    background-color: #3a3a3a;
+    color: #f0f0f0;
+}
+
+.fixed-bottom-left {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: #45a049;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-bottom-left:hover {
+    background-color: #8bc34a;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    background-color: #505050;
+    border-color: #8bc34a;
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+button {
+    background-color: #45a049;
+    cursor: pointer;
+    font-size: 1.2rem;
+    animation: pulse 2s infinite;
+}
+
+button:hover {
+    background-color: #8bc34a;
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px rgba(139, 195, 74, 0.3);
+}
+
+
+
+
+
+
+h2 {
+    font-size: 1.8rem;
+    color: #e0e0e0;
+    margin-top: 20px;
+    animation: slideInUp 1s ease-in-out;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.leaflet-container {
+    background: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+
+.leaflet-control-zoom {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+}
+
+.leaflet-control-zoom a:hover {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+
+.leaflet-bar a {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+}
+
+.leaflet-bar a:hover {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+
+.leaflet-bar a.leaflet-disabled {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+
+
+.leaflet-control-layers {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-control-layers-expanded {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.leaflet-control-layers-toggle {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.leaflet-control-layers label {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.leaflet-control-layers input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+
+.leaflet-bar {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    border-radius: 5px;
+}
+
+.leaflet-bar a {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+
+}
+
+.leaflet-bar a:hover {
+    color: #ffffff;
+    background-color: #1d1b1b;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.leaflet-draw-toolbar a {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.leaflet-draw-toolbar a:hover {
+    color: #ffffff;
+    background-color: #1d1b1b;
+    border-bottom: 1px solid #ff0000;
+}
+
+.leaflet-draw-tooltip {
+    color: #ffffff;
+    background-color: #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+}
+
+
+.modal-lg {
+    max-width: 50%;
+    height: 95vh;
+    margin-top: 0;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+.modal-body {
+    height: calc(100% - 56px - 56px);
+    padding: 0;
+}
+
+.modal-body iframe {
+     height: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 5px rgba(139, 195, 74, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(139, 195, 74, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(139, 195, 74, 0.3);
+    }
+}

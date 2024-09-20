@@ -1,0 +1,312 @@
+{
+    "Weizen": {
+        "name": "Weizen",
+        "color": "#ffeb3b",
+        "recommendedRotations": [
+            "Raps",
+            "Sojabohne",
+            "Mais"
+        ]
+    },
+    "Winterweizen": {
+        "name": "Winterweizen",
+        "color": "#f1c40f",
+        "recommendedRotations": [
+            "Raps",
+            "Lupine",
+            "Mais"
+        ]
+    },
+    "Gerste": {
+        "name": "Gerste",
+        "color": "#d4ac0d",
+        "recommendedRotations": [
+            "Sojabohne",
+            "Raps",
+            "Silomais"
+        ]
+    },
+    "Wintergerste": {
+        "name": "Wintergerste",
+        "color": "#f7dc6f",
+        "recommendedRotations": [
+            "Raps",
+            "Zuckerrübe",
+            "Mais"
+        ]
+    },
+    "Hafer": {
+        "name": "Hafer",
+        "color": "#f0e68c",
+        "recommendedRotations": [
+            "Zuckerrübe",
+            "Raps",
+            "Mais"
+        ]
+    },
+    "Triticale": {
+        "name": "Triticale",
+        "color": "#cfae2c",
+        "recommendedRotations": [
+            "Raps",
+            "Sojabohne",
+            "Silomais"
+        ]
+    },
+    "Dinkel": {
+        "name": "Dinkel",
+        "color": "#deb887",
+        "recommendedRotations": [
+            "Raps",
+            "Lupine",
+            "Mais"
+        ]
+    },
+    "Roggen": {
+        "name": "Roggen",
+        "color": "#d2b48c",
+        "recommendedRotations": [
+            "Mais",
+            "Zuckerrübe",
+            "Raps"
+        ]
+    },
+    "Sorghum": {
+        "name": "Sorghum",
+        "color": "#f4a460",
+        "recommendedRotations": [
+            "Sonnenblume",
+            "Sojabohne",
+            "Mais"
+        ]
+    },
+    "Mais": {
+        "name": "Mais",
+        "color": "#ffd700",
+        "recommendedRotations": [
+            "Raps",
+            "Weizen",
+            "Sojabohne"
+        ]
+    },
+    "Silomais": {
+        "name": "Silomais",
+        "color": "#6b8e23",
+        "recommendedRotations": [
+            "Sojabohne",
+            "Raps",
+            "Gerste"
+        ]
+    },
+    "Silagesorghum": {
+        "name": "Silagesorghum",
+        "color": "#556b2f",
+        "recommendedRotations": [
+            "Lupine",
+            "Sonnenblume",
+            "Mais"
+        ]
+    },
+    "Kartoffel": {
+        "name": "Kartoffel",
+        "color": "#8b4513",
+        "recommendedRotations": [
+            "Raps",
+            "Gerste",
+            "Weizen"
+        ]
+    },
+    "Zuckerrübe": {
+        "name": "Zuckerrübe",
+        "color": "#a52a2a",
+        "recommendedRotations": [
+            "Raps",
+            "Mais",
+            "Sojabohne"
+        ]
+    },
+    "Karotte": {
+        "name": "Karotte",
+        "color": "#ffa07a",
+        "recommendedRotations": [
+            "Sojabohne",
+            "Raps",
+            "Mais"
+        ]
+    },
+    "Zwiebel": {
+        "name": "Zwiebel",
+        "color": "#ff6347",
+        "recommendedRotations": []
+    },
+    "Sonnenblume": {
+        "name": "Sonnenblume",
+        "color": "#ffd700",
+        "recommendedRotations": [
+            "Weizen",
+            "Mais",
+            "Lupine"
+        ]
+    },
+    "Raps": {
+        "name": "Raps",
+        "color": "#ff8c00",
+        "recommendedRotations": [
+            "Weizen",
+            "Lupine",
+            "Mais"
+        ]
+    },
+    "Leinsamen": {
+        "name": "Leinsamen",
+        "color": "#da70d6",
+        "recommendedRotations": []
+    },
+    "Sojabohne": {
+        "name": "Sojabohne",
+        "color": "#9acd32",
+        "recommendedRotations": [
+            "Weizen",
+            "Raps",
+            "Mais"
+        ]
+    },
+    "Lupine": {
+        "name": "Lupine",
+        "color": "#4169e1",
+        "recommendedRotations": [
+            "Weizen",
+            "Raps",
+            "Mais"
+        ]
+    },
+    "Luzerne": {
+        "name": "Luzerne",
+        "color": "#7f00ff",
+        "recommendedRotations": []
+    },
+    "Klee": {
+        "name": "Klee",
+        "color": "#32cd32",
+        "recommendedRotations": []
+    },
+    "Kleegras": {
+        "name": "Kleegras",
+        "color": "#006400",
+        "recommendedRotations": []
+    },
+    "Gras": {
+        "name": "Gras",
+        "color": "#228b22",
+        "recommendedRotations": []
+    },
+    "Wiese": {
+        "name": "Wiese",
+        "color": "#8fbc8f",
+        "recommendedRotations": []
+    },
+    "Pferdegras": {
+        "name": "Pferdegras",
+        "color": "#556b2f",
+        "recommendedRotations": []
+    },
+    "Feldgras": {
+        "name": "Feldgras",
+        "color": "#9acd32",
+        "recommendedRotations": []
+    },
+    "Kräutergras": {
+        "name": "Kräutergras",
+        "color": "#7fff00",
+        "recommendedRotations": []
+    },
+    "Weidegras": {
+        "name": "Weidegras",
+        "color": "#66cdaa",
+        "recommendedRotations": []
+    },
+    "Ölrettich": {
+        "name": "Ölrettich",
+        "color": "#ff4500",
+        "recommendedRotations": [
+            "Weizen",
+            "Lupine",
+            "Mais"
+        ]
+    },
+    "Senf": {
+        "name": "Senf",
+        "color": "#ffd700",
+        "recommendedRotations": []
+    },
+    "Blumenmischung": {
+        "name": "Blumenmischung",
+        "color": "#ff69b4",
+        "recommendedRotations": []
+    },
+    "Sommermischung": {
+        "name": "Sommermischung",
+        "color": "#ffa07a",
+        "recommendedRotations": []
+    },
+    "Wintermischung": {
+        "name": "Wintermischung",
+        "color": "#4682b4",
+        "recommendedRotations": []
+    },
+    "Maismischung": {
+        "name": "Maismischung",
+        "color": "#ffdead",
+        "recommendedRotations": []
+    },
+    "BetaMaxx": {
+        "name": "BetaMaxx",
+        "color": "#d2691e",
+        "recommendedRotations": []
+    },
+    "NFIXx": {
+        "name": "NFIXx",
+        "color": "#556b2f",
+        "recommendedRotations": []
+    },
+    "Landsberger Gemenge": {
+        "name": "Landsberger Gemenge",
+        "color": "#2e8b57",
+        "recommendedRotations": []
+    },
+    "Solarigol": {
+        "name": "Solarigol",
+        "color": "#ffa500",
+        "recommendedRotations": []
+    },
+    "Futterkarotte": {
+        "name": "Futterkarotte",
+        "color": "#ff8c00",
+        "recommendedRotations": []
+    },
+    "Futterrübe": {
+        "name": "Futterrübe",
+        "color": "#8b0000",
+        "recommendedRotations": []
+    },
+    "Rote Beete": {
+        "name": "Rote Beete",
+        "color": "#b22222",
+        "recommendedRotations": []
+    },
+    "Pastinake": {
+        "name": "Pastinake",
+        "color": "#f5deb3",
+        "recommendedRotations": []
+    },
+    "Vetch-Roggen": {
+        "name": "Vetch-Roggen",
+        "color": "#6b8e23",
+        "recommendedRotations": []
+    },
+    "Stärkekartoffel": {
+        "name": "Stärkekartoffel",
+        "color": "#cd853f",
+        "recommendedRotations": []
+    }
+}
