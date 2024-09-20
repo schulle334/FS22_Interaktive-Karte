@@ -47,35 +47,35 @@ Dieses Projekt bietet eine interaktive Karte für den Landwirtschafts-Simulator 
    ### 2. Python SimpleHTTPServer (Python 2) oder http.server (Python 3)
    - **Installation:** Python ist in der Regel vorinstalliert. Stelle sicher, dass du Python 3 oder höher verwendest.
    - **Verwendung:**
-     1. Öffne ein Terminal und navigiere in das Verzeichnis deines Projekts.
-     2. Starte den Server mit folgendem Befehl:
+        Öffne ein Terminal und navigiere in das Verzeichnis deines Projekts.
+        Starte den Server mit folgendem Befehl:
         ```
         python -m http.server
         ```
-     3. Der Server läuft dann standardmäßig auf `http://localhost:8000`.
+        Der Server läuft dann standardmäßig auf `http://localhost:8000`.
 
    ### 3. Node.js mit HTTP-Server
    - **Installation:** Installiere Node.js von [nodejs.org](https://nodejs.org/).
    - **Verwendung:**
-     1. Installiere das Paket `http-server` global:
+        Installiere das Paket `http-server` global:
         ```
         npm install -g http-server
         ```
-     2. Navigiere in das Verzeichnis deines Projekts und starte den Server:
+        Navigiere in das Verzeichnis deines Projekts und starte den Server:
         ```
         http-server
         ```
-     3. Der Server läuft dann standardmäßig auf `http://localhost:8080`.
+        Der Server läuft dann standardmäßig auf `http://localhost:8080`.
 
    ### 4. PHP Built-in Server
    - **Installation:** PHP muss installiert sein (kann von [php.net](https://www.php.net/) heruntergeladen werden).
    - **Verwendung:**
-     1. Öffne ein Terminal und navigiere in das Verzeichnis deines Projekts.
-     2. Starte den Server mit folgendem Befehl:
+        Öffne ein Terminal und navigiere in das Verzeichnis deines Projekts.
+        Starte den Server mit folgendem Befehl:
         ```
         php -S localhost:8000
         ```
-     3. Der Server läuft dann auf `http://localhost:8000`.
+        Der Server läuft dann auf `http://localhost:8000`.
 
    ### 5. BrowserSync
    - **Installation:** Erfordert Node.js. Installiere BrowserSync global:
@@ -83,11 +83,11 @@ Dieses Projekt bietet eine interaktive Karte für den Landwirtschafts-Simulator 
      npm install -g browser-sync
      ```
    - **Verwendung:**
-     1. Navigiere in das Verzeichnis deines Projekts und starte den Server:
+        Navigiere in das Verzeichnis deines Projekts und starte den Server:
         ```
         browser-sync start --server --files "*"
         ```
-     2. Der Server öffnet die Seite automatisch in deinem Standardbrowser und aktualisiert die Seite bei Änderungen.
+        Der Server öffnet die Seite automatisch in deinem Standardbrowser und aktualisiert die Seite bei Änderungen.
 
    ### 6. Brackets Live Preview
    - **Installation:** Installiere den [Brackets Editor](http://brackets.io/).
